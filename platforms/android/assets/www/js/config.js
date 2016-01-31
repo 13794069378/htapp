@@ -1,0 +1,16 @@
+﻿//var ipaddress = "192.168.168.61:8080";
+//var ipaddress = "192.168.168.111:8080";
+//var ipaddress = "192.168.168.17:8091";
+//var ipaddress = '192.168.168.11:8188';
+//var ipaddress = '192.168.168.50:80';
+//var ipaddress = "192.168.168.4:8080";
+//var ipaddress = "192.168.15.57:8288";
+//var ipaddress = "192.168.168.10";
+var ipaddress = "hip.haday.cn:8288";
+//var ipaddress = "192.168.15.59:8200";
+var imageaddress = "hip.haday.cn:8188";
+var systemname = "Android";
+var serviceName = "HIP"; //HIPAppService
+var version = "3.2"; // 注：在本文件新增字符串属性要在版本version之前加，防止读取版本错误
+var isBDlocation = false; // true:百度定位; false:腾讯定位
+var debug = false;

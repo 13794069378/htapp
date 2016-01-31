@@ -1,0 +1,1148 @@
+body {
+	font-family: 微软雅黑;
+}
+a {
+	text-decoration: none;
+	color: gray;
+}
+/* 上拉更新 */
+
+#afui .bodycss {
+	width: 140px;
+	height: 100px;
+}
+.buttons {
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-weight: bold;
+}
+.buttons * {
+	vertical-align: middle;
+}
+#afui a.button.pressed {
+	opacity: 0.8;
+}
+#afui input[type="button"].pressed {
+	opacity: 0.8;
+}
+#afui table td.searchcheck.pressed {
+	opacity: 0.8;
+}
+/* 设置界面 */
+
+.setinfo {
+	list-style: none;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 2px solid #D9D9D9;
+}
+.setinfo li {
+	width: 100%;
+	border-bottom: 2px solid #D9D9D9;
+	height: 40px;
+	padding-top: 2px;
+}
+.setinfo li a {
+	color: #53575E;
+	margin-top: 7px;
+	margin-left: 20px;
+	float: left;
+	text-decoration: none;
+}
+/* 页脚 */
+
+#afui .footer {
+	background: #6FA8DC;
+	border-style: none;
+	height: auto;
+}
+#afui footer > a.pressed:not(.button) {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background: #95BCF2;
+}
+/* 页头 */
+
+#afui .header {
+	background: #6FA8DC;
+	border-style: none;
+	height: auto;
+}
+#afui .header .next {
+	background: #2B78E4;
+	margin-right: 20px;
+	padding-top: 10px;
+	float: right;
+}
+/* 登录界面 */
+
+#afui .logstyle {
+	margin-top: 30%;
+}
+#login {
+	margin-top: 10px;
+	padding-top: 3px;
+	width: 80%;
+	height: 90px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background: white;
+}
+#login div img {
+	float: left;
+	border: 0;
+	background: none;
+	height: 35px;
+	margin-top: 3px;
+}
+#login #tinp,
+#login #pinp {
+	float: left;
+	margin: 3px 4px 0 0;
+	border-style: none;
+	background-color: transparent;
+	width: 83%;
+	/*border: 1px solid #7F7F7F;*/
+	
+	color: black;
+}
+#login div {
+	float: left;
+	background-color: none;
+	width: 100%;
+}
+#denglu,
+#out {
+	margin-top: 10px;
+	width: 80%;
+	height: 40px;
+	color: white;
+	background-image: url(../images/pg.jpg);
+	border: none;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#afui .banquan {
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+}
+#forgetpw {
+	text-align: right;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 17px;
+}
+#forgetpw a {
+	text-decoration: none;
+	color: #7F7F7F;
+}
+/* 设置界面 */
+
+#out {
+	width: 100%;
+}
+.setinfo {
+	list-style: none;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	/*border: 2px solid #D9D9D9;*/
+}
+.setinfo p {
+	width: 100%;
+	border-bottom: 1px solid #D9D9D9;
+	min-height: 40px;
+}
+#afui .setinfo p textarea {
+	margin-bottom: 0px;
+	padding: 0px;
+	padding-top: 13px;
+	border-style: none;
+	overflow: hidden;
+	resize: none;
+}
+/* 请假列表和请假审批界面 */
+
+#leavebox,
+#leavecheckbox {
+	margin: 2px;
+}
+#afui .leavefont {
+	float: left;
+}
+#afui .leavefont p font {
+	margin-top: 5px;
+}
+/* 请假申请和请假审批和考勤地点采集界面 */
+
+#afui input.toggle + label:after {
+	top: 2px;
+	left: 35px;
+}
+#afui input.toggle:checked + label:before {
+	left: 10px;
+	top: 2px;
+}
+#afui .pfstyle {
+	margin: 5px;
+}
+#afui .pfstyle p {
+	font-size: 15px;
+	margin: 0px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #D9D9D9;
+}
+#afui .pfstyle p font {
+	margin-right: 5px;
+}
+#afui .checkinfo {
+	margin: 5px;
+}
+#afui .checkinfo font {
+	float: left;
+	font-size: 18px;
+}
+#afui .checkinfo div label {
+	float: left;
+	left: 40px;
+}
+#afui .checkinfo div label font {
+	float: left;
+	font-size: 18px;
+	width: 80px;
+	margin-top: -3px;
+}
+/* 保存、审批等底部按钮 */
+
+#afui .bottombutton {
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+#afui .bottombutton a {
+	width: 100%;
+	color: white;
+	background-color: #2B78E4;
+}
+#afui .bottombutton a.pressed {
+	background-color: #005EE2;
+}
+#afui .bottombuttona {
+	width: 100%;
+	color: white;
+	background-color: #2B78E4;
+}
+#afui .bottombuttona.pressed {
+	background-color: #296BC8;
+}
+/* 考勤目标地点列表和考勤记录列表和建档记录界面 */
+
+#workplacebox,
+#worknotebox,
+#visitnotebox,
+#buildfilehistorybox,
+#leavecheckbox,
+#leavebox,
+#sellcheckbox,
+#receiptinfobox,
+#sendinfobox,
+#sellbox {
+	margin: 5px;
+}
+#afui .workstyle {
+	background: white;
+	padding: 0px 2px;
+	list-style: none;
+}
+#afui .workstyle li {
+	border-bottom: 1px solid #D9D9D9;
+	padding: 5px 0px;
+}
+#afui .workstyle li a {
+	text-decoration: none;
+}
+#afui .workstyle li div p {
+	margin: 0px;
+}
+#afui .workstyle li div p font {
+	margin-right: 5px;
+	color: black;
+}
+#afui .workstyle li div span {
+	float: left;
+	margin-top: 30px;
+	margin-left: 5px;
+	color: #D64946;
+}
+#afui .workstyle li div img {
+	float: left;
+	width: 30px;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+/*#afui .workstyle li div a {
+    float: left;
+    margin-top: 30px;
+    color: #D64946;
+}*/
+
+#afui .workplacestyle li div span {
+	margin-top: 20px;
+}
+/*#afui .leavestyle li div a {
+    margin-top: 15px;
+}*/
+
+#afui .leavestyle li a font {
+	margin-right: 10px;
+}
+#afui .leavestyle li a div span {
+	margin-top: 15px;
+}
+#afui .leavestyle li a div img {
+	margin-top: 30px;
+}
+#afui .leavehistorystyle li a font {
+	margin-right: 10px;
+}
+#afui .leavehistorystyle li a div img {
+	margin-top: 0px;
+}
+#afui .worknotestyle li a font {
+	margin-right: 10px;
+}
+#afui .worknotestyle li a div img {
+	margin-top: 20px;
+}
+#afui .visitnotestyle li a font {
+	margin-right: 10px;
+}
+#afui .visitnotestyle li a div img {
+	margin-top: 20px;
+}
+#afui .sendinfostyle li a font {
+	margin-right: 10px;
+}
+#afui .sendinfostyle li a div img {
+	margin-top: 10px;
+}
+#afui .loginlogstyle li font {
+	margin-right: 10px;
+}
+#afui .loginlogstyle li div img {
+	margin-top: 3px;
+}
+/* U1-4终端建档管理和拜访登记界面 */
+
+#afui #buildfilebox,
+#afui #visitbox {
+	margin: 5px;
+}
+#afui #buildfilebox p,
+#afui #visitbox p {
+	font-size: 15px;
+	margin: 0px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #D9D9D9;
+}
+#afui #buildfilebox p font,
+#afui #visitbox p font {
+	margin-right: 5px;
+}
+#afui .buildfileimg {
+	margin-top: 10px;
+	float: left;
+	width: 50%;
+}
+#afui .buildfileimg div {
+	border: 1px solid #D9D9D9;
+	width: 130px;
+	height: 100px;
+}
+#afui .buildfileimg div img {
+	width: 130px;
+}
+/* 功能界面 */
+
+#afui .allicon {
+	margin-top: 10px;
+}
+#afui .allicon div {
+	margin: 10px auto;
+	width: 25%;
+	float: left;
+}
+#afui .allicon div a {
+	text-decoration: none;
+}
+#afui .allicon div a img {
+	width: 50px;
+}
+#afui .allicon div a font {
+	font-size: 15px;
+	color: #9A9495;
+}
+/* 加载中 */
+
+#afui .loading {
+	display: none;
+	font-size: 15px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+/* 表格信息不存在 */
+
+#afui .mnone {
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	padding: 30px;
+	margin: 30px;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid black;
+	display: none;
+}
+#afui .mnone img {
+	width: 50px;
+}
+#afui .cancelbutton {
+	display: none;
+	pointer-events: none;
+}
+/* 新列表样式 */
+
+#afui .liststyle {
+	background: white;
+	list-style: none;
+}
+#afui .liststyle li {
+	border-bottom: 1px solid #D9D9D9;
+	padding: 5px 0px;
+}
+#afui .liststyle li a {
+	text-decoration: none;
+}
+#afui .liststyle li a div p {
+	margin: 0px;
+}
+#afui .liststyle li a div p font {
+	margin-right: 5px;
+	color: black;
+}
+#afui .liststyle li a div span {
+	float: left;
+	margin-top: 30px;
+	margin-left: 5px;
+	color: #D64946;
+}
+#afui .newleavestyle li a div span {
+	margin-top: 15px;
+}
+/* 表格样式 */
+
+#afui .tableform {
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	width: 100%;
+	color: #333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+#afui .tableform th {
+	height: 20px;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+#afui .tableform td {
+	text-align: center;
+	height: 20px;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+#afui .tablestyle {
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	width: 100%;
+	color: #333333;
+}
+#afui .tablestyle td {
+	text-align: left;
+	height: 20px;
+	padding: 5px 0px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #D9D9D9;
+}
+/* 单选选取样式 */
+
+#afui #radioscrl,
+#afui #radioscrlwl,
+#afui #radiosrossq {
+	height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#afui .radiostyle {
+	background: white;
+	list-style: none;
+	padding: 0px 5px;
+}
+#afui .radiostyle li {
+	border-bottom: 1px solid #D9D9D9;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+#afui .radiostyle li label {
+	float: left;
+	left: 30px;
+	width: 90%;
+}
+#afui .radiostyle font {
+	float: left;
+	font-size: 18px;
+	margin-top: -3px;
+}
+/* 列表 */
+
+#afui .buildul li {
+	border-bottom: 1px solid #D9D9D9;
+	padding: 5px 0px;
+}
+#afui .buildul li label {
+	width: 25%;
+	padding-left: 0px;
+}
+#afui .buildlab {
+	margin: 0px;
+	text-align: left;
+}
+#afui .buildfont {
+	float: left;
+	width: 75%;
+}
+#afui .buildfont1 {
+	color: red;
+	font-size: 20px;
+	float: left;
+	width: 10%;
+}
+#afui .buildfont2 {
+	float: left;
+	width: 90%;
+}
+/* 搜索 */
+
+#afui .search {
+	height: 40px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #D9D9D9;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6FA8DC), to(#B6CFEE));
+}
+#afui .searchform {
+	height: 50px;
+	display: none;
+	border: 1px solid #D9D9D9;
+	border-top: none;
+	margin: 0px 10px;
+	margin-top: -8px;
+	padding: 5px;
+	background: #D9D9D9;
+}
+#afui .tablemess {
+	color: black;
+	width: 100%;
+}
+#afui .deltest.pressed {
+	/* background: #D9D9D9;*/
+}
+#afui .deltest img.pressed {
+	opacity: 0.5;
+}
+#afui input[type="checkbox"] + label.bbb:before {
+	left: 2px;
+}
+#afui .allicon a.pressed > img,
+#afui .allicon a.pressed > font,
+#afui .allicon a img.pressed ~ font,
+#afui .allicon a img.pressed,
+#afui .allicon a font.pressed {
+	opacity: 0.5;
+}
+/* 搜索单选 */
+
+#afui input[type="text"].androidcss {
+	height: 100%;
+	padding: 0px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+#afui input[type="text"].ioscss {
+	height: 100%;
+	margin-bottom: 0px;
+}
+#afui .tablemess td font {
+	word-break: break-all;
+}
+/* 销售订单 */
+
+#afui .orderul .buildfont {
+	margin-top: 10px;
+}
+/* 返回按钮 */
+
+#afui .backcss {
+	visibility: visible;
+	width: 50px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+/* 内部网 */
+
+h4 {
+	color: black;
+}
+#afui .toptitle {
+	bottom: 0px;
+	position: absolute;
+	z-index: 400;
+	background: black;
+	color: white;
+	width: 100%;
+	opacity: 0.5;
+	padding-left: 10px;
+}
+#afui .toptitle font {
+	float: left;
+	width: 60%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+#afui .car a img {
+	height: 200px;
+	width: 100%;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+#afui .listv {
+	list-style: none;
+	margin-top: 5px;
+}
+#afui .listv li {
+	width: 100%;
+	margin-top: 5px;
+	border-bottom: 1px solid #E6E6E6;
+}
+#afui .listv a {
+	text-decoration: none;
+}
+#carousel div img {
+	height: 200px;
+	width: 100%;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+/* 图片左置 */
+
+#afui .left_img {
+	min-height: 70px;
+}
+#afui .left_img a div {
+	float: left;
+	width: 75%;
+}
+#afui .left_img a div h4 {
+	font-size: 15px;
+}
+#afui .left_img a div p {
+	color: #7F7F7F;
+	font-size: 12px;
+	margin-top: 0px;
+	word-break: break-all;
+}
+#afui .left_img a div p font {
+	color: #7F7F7F;
+	float: right;
+	margin-right: 3px;
+}
+#afui .left_img a img {
+	float: left;
+	width: 65px;
+	height: 65px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+/* 图片右置 */
+
+#afui .right_img {
+	min-height: 70px;
+}
+#afui .right_img a div {
+	float: left;
+	width: 75%;
+}
+#afui .right_img a div h4 {
+	font-size: 15px;
+}
+#afui .right_img a div p {
+	color: #7F7F7F;
+	font-size: 12px;
+	margin-top: 0px;
+	word-break: break-all;
+}
+#afui .right_img a div p font {
+	color: #7F7F7F;
+	float: right;
+	margin-right: 0px;
+}
+#afui .right_img a img {
+	float: left;
+	width: 25%;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+/* 大图片 */
+
+#afui .big_img a h4 {
+	font-size: 15px;
+}
+#afui .big_img a h4 font {
+	color: #7F7F7F;
+	float: right;
+	margin-right: 3px;
+	font-size: 12px;
+	font-weight: lighter;
+}
+#afui .big_img a img {
+	width: 100%;
+	padding: 5px 0px;
+}
+/* 无图片 */
+
+#afui .none_img {
+	min-height: 70px;
+	padding-top: 5px;
+}
+#afui .none_img a h4 {
+	font-size: 15px;
+}
+#afui .none_img a p {
+	color: #7F7F7F;
+	font-size: 12px;
+	margin-top: 0px;
+	word-break: break-all;
+}
+#afui .none_img a p font {
+	color: #7F7F7F;
+	float: right;
+	margin-right: 3px;
+}
+/* 三图片 */
+
+#afui .three_img {
+	min-height: 70px;
+}
+#afui .three_img a h4 {
+	font-size: 15px;
+}
+#afui .three_img a h4 font {
+	color: #7F7F7F;
+	float: right;
+	font-size: 12px;
+	margin-right: 3px;
+	font-weight: lighter;
+}
+#afui .three_img a div {
+	padding: 5px 0px;
+}
+#afui .three_img a div img {
+	width: 31%;
+	margin-right: 5px;
+}
+/* 搜索界面 */
+
+#search_box #s {
+	float: left;
+	border: 0;
+	width: 100%;
+	background: none;
+	font-size: .8em;
+	height: 35px;
+}
+#search_box #go {
+	float: right;
+	margin: 3px 4px 0 0;
+}
+#box {
+	width: 80%;
+	margin: 30px auto;
+}
+#box form div {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 100%;
+	height: 35px;
+	margin-top: 20px;
+}
+#box div select {
+	border: 0;
+	background: none;
+	width: 150px;
+	height: 35px;
+	float: left;
+}
+#box div font {
+	margin-top: 10px;
+	margin-left: 5px;
+	float: left
+}
+/* 提示框 */
+
+#afui .errorbutton {
+	background: white;
+	border-color: grey;
+	border-radius: 20px;
+	color: grey;
+}
+#afui .errorbutton.pressed,
+#afui .okbutton.pressed {
+	background: rgb(242, 242, 242);
+}
+#afui .okbutton {
+	background: white;
+	border-color: #6FA8DC;
+	border-radius: 20px;
+	color: #6FA8DC;
+}
+#afui .afPopup {
+	border: gray;
+}
+.afPopup>HEADER {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0;
+	padding: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+/* 到货信息 */
+
+#afui label.arrivedlab {
+	padding: 5px 6px;
+	margin-bottom: 0px;
+}
+#afui .attrivedsp {
+	margin-top: 5px;
+}
+#afui .buildul li span {
+	word-break: break-all;
+}
+/* 新闻明细界面 */
+/*#nei p, #nei p strong {
+    margin-top: 8px;
+    font-size: 17px;
+    line-height: 150%;
+}
+
+#nei p strong {
+    margin-left: 35px;
+}
+
+#nei {
+    margin: 10px 5px;
+}
+
+#nei img {
+    width: 100%;
+    float: left;
+    margin: 5px 0px;
+}
+
+#nei h4 {
+    text-align: center;
+}*/
+
+#rong {
+	text-align: left;
+	margin: 10px 0px;
+}
+#rong .tou {
+	width: 100%;
+}
+#rong .tou h1 {
+	font-size: 20px;
+	font-weight: 500;
+	color: black;
+}
+#rong .tou h2 {
+	font-size: 15px;
+	font-weight: 100;
+	color: #A6A6A6;
+}
+#transition3 .dz {
+	margin-top: 20px;
+}
+#transition3 .ld {
+	width: 45%;
+	height: 40px;
+	background-color: rgb(240, 240, 240);
+	float: left;
+}
+#transition3 .ld img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 25%;
+	width: 20px;
+}
+#transition3 .ld font,
+#transition3 .rc font {
+	float: left;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+#transition3 .rc {
+	width: 45%;
+	height: 40px;
+	background-color: rgb(240, 240, 240);
+	float: right;
+}
+#transition3 .rc img {
+	float: left;
+	margin-top: 6px;
+	margin-left: 25%;
+	width: 20px;
+}
+/*#icons_info {
+    display: none;
+    position: fixed;
+    right: 0px;
+    
+    height: 120px;
+    width: 120px;
+    background-color: #F0F0F0;
+}
+
+#icons_info div {
+    height: 40px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+#icons_info div a {
+    color: #909297;
+    text-decoration: none;
+}
+
+#icons_info div a img {
+    position: absolute;
+    width: 20px;
+}
+
+#icons_info div a font {
+    position: absolute;
+    font-size: 15px; 
+}*/
+/*  帖子列表 */
+
+#afui .ping {
+	margin: 0 -10px;
+	background: #fff;
+}
+#afui .ping li {
+	box-shadow: 0px 1px 1px -1px #ccc;
+	display: block;
+	padding-left: 10px;
+	position: relative;
+}
+#afui .ping a li,
+#afui .ping li {
+	text-decoration: none;
+	display: block;
+	color: #666;
+	height: 60px;
+	line-height: 60px;
+}
+#afui .ping a li img,
+#afui .ping li img {
+	float: left;
+	display: block;
+	padding-top: 12px;
+	padding-right: 6px;
+}
+#afui .lun a li,
+#afui .lun li {
+	height: auto;
+	line-height: normal;
+	padding: 6px 0px 6px 0px;
+}
+#afui .lun {
+	margin: 0px 5px;
+}
+#afui .lun a li p,
+#afui .lun li p {
+	padding-right: -5px;
+	font-size: 12px;
+	margin: 0px;
+	color: black;
+}
+#afui .lun .tneirong,
+#ulSelfDiscuss .tneirong {
+	font-size: 16px;
+}
+#afui .lun a li img,
+#afui .lun li img {
+	width: 20px;
+	height: 20px;
+	display: block;
+	padding: 0px 6px 4px 0px;
+	margin-left: 0px;
+}
+#afui .lun a {
+	text-decoration: none;
+}
+/*#afui .lun a li.item {
+    background: #F0F0F0;
+    border-bottom-color: #E6E6E6;
+}*/
+
+#afui .lun .data {
+	color: #7D7D7D;
+	text-align: right;
+}
+#afui .lun a li.item div,
+#afui .lun li.item div {
+	float: right;
+}
+#afui .lun a li.item div div img,
+#afui .lun li.item div div img {
+	float: right;
+}
+#afui .lun a li.item div font,
+#afui .lun li.item div font {
+	float: right;
+	margin-right: 3px;
+	font-size: 13px;
+	color: #ADAEAF;
+	margin-top: 3px;
+}
+#flag {
+	width: 20px;
+	height: 15px;
+	position: absolute;
+	right: 0px;
+}
+/*#afui .lun a li .tname {
+    color: #0080FF;
+}*/
+
+#afui .lun a li .tdate,
+#afui .lun li .tdate {
+	color: #0080FF;
+	text-align: right;
+}
+/* 消息接收人列表 */
+
+#afui input[type="checkbox"] + label.sendlist {
+	float: left;
+	width: 90%;
+	margin-left: 30px;
+}
+/* 订单传品列表 */
+
+#afui .standardPrice {
+	display: none;
+}
+/* panel输入 */
+
+#afui input[type="text"].panelinput,
+#afui input[type="number"].panelinput,
+#afui input[type="tel"].panelinput,
+#afui textarea.panelinput {
+	border-color: #ccc;
+	color: black;
+}
+/* panel查看 */
+
+#afui input[type="text"].panelcheck,
+#afui input[type="number"].panelcheck,
+#afui input[type="tel"].panelcheck,
+#afui textarea.panelcheck {
+	border-color: transparent;
+	color: black;
+}
+/* 输入表格 */
+
+#afui .infotable {
+	width: 100%;
+}
+#afui .tablestar {
+	color: red;
+}
+#afui .infotable td {
+	box-shadow: 0px 1px 1px -1px #ccc;
+	word-wrap: break-word;
+	word-break: break-word;
+	vertical-align: middle;
+	padding: 7px 0px;
+	padding-right: 5px;
+}
+#afui .infotable td input {
+	margin: 0px;
+	width: 100%;
+}
+#afui .infotable td font {
+	width: 100%;
+}
+#afui .buildFileDealerinfo,
+#afui .buildFileotherinfo {
+	display: none;
+}
+/* 省市区查询 */
+
+#afui .searchpro {
+	margin: 5px;
+	margin-left: 0px;
+	width: 18%;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	float: right;
+	background: #6FA8DC;
+	border-radius: 5px;
+	color: white;
+}
+#afui .searchpro.icon:before {
+	left: 0px;
+}
+#afui .searchpro.pressed {
+	opacity: 0.8;
+}
+/* 到货云跟踪 */
+
+.goodsbutton.icon:before {
+	top: 1px;
+	left: -5px;
+}

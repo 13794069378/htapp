@@ -1,0 +1,24 @@
+.carousel_paging2 {
+	border-radius: 10px;
+	background: #ccc;
+	width: 10px;
+	height: 10px;
+	display:inline-block;
+}
+
+.carousel_paging2_selected {
+	border-radius: 10px;
+	background: #000;
+	width: 10px;
+	height: 10px;
+	display:inline-block;
+}
+
+.spacer {
+	width: 10px;
+	float: left;
+}
+
+.carousel_content {
+	-webkit-transform: translate3d(0, 0, 0);
+}
